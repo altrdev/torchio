@@ -23,7 +23,7 @@ jobs:
           rustup default stable
 
       # the compiled dependencies, which only change with Cargo.lock
-      - uses: Swatinem/rust-cache@v2.9.2
+      - uses: Swatinem/rust-cache@v2.9.3
 
       - name: Changelog has a section for this version
         run: |

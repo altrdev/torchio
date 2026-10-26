@@ -37,7 +37,7 @@ jobs:
           rustup toolchain install stable --profile minimal --no-self-update
           rustup default stable
 
-      - uses: Swatinem/rust-cache@v2.9.2
+      - uses: Swatinem/rust-cache@v2.9.3
 
       # the version of the commit that is built: of the tag for a release, of main for a run by hand
       - name: Write the version in the site
