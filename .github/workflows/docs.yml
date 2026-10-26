@@ -56,7 +56,7 @@ jobs:
         run: cargo run --locked --example endpoints_reference > book/src/reference.md
 
       # a prebuilt binary, whose checksum the action verifies
-      - uses: taiki-e/install-action@v2.87.29
+      - uses: taiki-e/install-action@v2.87.31
         with:
           tool: mdbook@0.5.4
 

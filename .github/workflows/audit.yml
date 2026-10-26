@@ -33,7 +33,7 @@ jobs:
           rustup default stable
 
       # a prebuilt binary, whose checksum the action verifies, instead of compiling it for two minutes
-      - uses: taiki-e/install-action@v2.87.29
+      - uses: taiki-e/install-action@v2.87.31
         with:
           tool: cargo-audit@0.22.1
 
